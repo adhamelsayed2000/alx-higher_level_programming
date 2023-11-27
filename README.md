@@ -1,97 +1,49 @@
-# Python - Hello, World
+# Higher-level programming - Python, Databases & JavaScript
 
-In this project, I began practicing using the interpreter, printing text
-and variables, and indexing and slicing strings in Python.
+This repository contains programs written for the higher-level programming
+track at Holberton School. In these projects, which began occurring in month
+four of the year one curriculum, I learned Python, MySQL and JavaScript.
+Simultaneously, I continued to reinforce and expand my skills in C and shell
+scripting. The specific list of projects contained follows:
 
-## Tests :heavy_check_mark:
+* [0x00. Python - Hello, World](./0x00-python-hello_world)
+* [0x01. Python - if/else, loops, functions](./0x01-python-if_else_loops_functions)
+* [0x02. Python - import & modules](./0x02-python-import_modules)
+* [0x03. Python - Data Structures: Lists, Tuples](./0x03-python-data_structures)
+* [0x04. Python - More Data Structures: Set, Dictionary](./0x04-python-more_data_structures)
+* [0x05. Python - Exceptions](./0x05-python-exceptions)
+* [0x06. Python - Classes and Objects](./0x06-python-classes)
+* [0x07. Python - Test-driven development](./0x07-python-test_driven_development)
+* [0x08. Python - More Classes and Objects](./0x08-python-more_classes)
+* [0x09. Python - Everything is object](./0x09-python-everything_is_object)
+* [0x0A. Python - Inheritance](./0x0A-python-inheritance)
+* [0x0B. Python - Input/Output](./0x0B-python-input_output)
+* [0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle)
+* [0x0D. SQL - Introduction](./0x0D-SQL_introduction)
+* [0x0E. SQL - More queries](./0x0E-SQL_more_queries)
+* [0x0F. Python - Object-relational mapping](./0x0F-python-object_relational_mapping)
+* [0x10. Python - Network #0](./0x10-python-network_0)
+* [0x11. Python - Network #1](./0x11-python-network_1)
+* [0x12. Javascript - Warm up](./0x12-javascript-warm_up)
+* [0x13. Javascript - Objects, Scopes and Closures](./0x13-javascript_objects_scopes_closures)
+* [0x14. Javascript - Web scraping](./0x14-javascript-web_scraping)
+* [0x15. Javascript - Web JQuery](./0x15-javascript-web_jquery)
 
-* [tests](./tests): Folder of test files. Provided by Holberton School.
+## Author :black_nib:
 
-## Function Prototypes :floppy_disk:
+* **Brennan D Baraban** <[bdbaraban](https://github.com/bdbaraban)>
 
-Prototypes for functions written in this project:
+## Acknowledgements :pray:
 
-| File                       | Prototype                             |
-| -------------------------- | ------------------------------------- |
-| `10-check_cycle.c`         | `int check_cycle(listint_t *list);`   |
-| `102-magic_calculation.py` | `def magic_calculation(a, b):`        |
+All work contained in this project was completed as part of the curriculum for
+Holberton School. Holberton School is a campus-based full-stack software
+engineering program that prepares students for careers in the tech industry
+using project-based peer learning. For more information, visit
+[this link](https://www.holbertonschool.com/).
 
-## Tasks :page_with_curl:
-
-* **0. Run Python File**
-  * [0-run](./0-run): Bash script that runs a Python script file saved
-  in the environment variable `$PYFILE`.
-
-* **1. Run inline**
-  * [1-run_inline](./1-run_inline): Bash script that runs Python code saved in the
-  environment variable `$PYCODE`.
-
-* **2. Hello, print**
-  * [2-print.py](./2-print.py): Python script that prints exactly `"Programming is
-  like building a multilingual puzzle`, followed by a new line using the function `print`.
-
-* **3. Print integer**
-  * [3-print_number.py](./3-print_number.py): Python script that prints the integer stored
-  in the variable `number`, followed by `Battery street`, followed by a new line.
-  * Completion of [this source code](https://github.com/holbertonschool/0x00.py/blob/master/3-print_number.py).
-
-* **4. Print float**
-  * [4-print_float.py](./4-print_float.py): Python script that prints the float stored
-  in the variable `number` with a precision of two digits.
-  * Completion of [this source code](https://github.com/holbertonschool/0x00.py/blob/master/4-print_float.py).
-
-* **5. Print string**
-  * [5-print_string.py](./5-print_string.py): Python script that prints a string stored
-  in the variable `str` three times, then a new line, then the first nine characters
-  contained in `str`, followed by another new line.
-  * Completion of [this source code](https://github.com/holbertonschool/0x00.py/blob/master/5-print_string.py).
-
-* **6. Play with strings**
-  * [6-concat.py](./6-concat.py): Python script that prints `Welcome to Holberton
-  School!` using the variables `str1 = "Holberton"` and `str2 = "School"`.
-  * Completion of [this source code](https://github.com/holbertonschool/0x00.py/blob/master/6-concat.py).
-
-* **7. Copy - Cut - Paste**
-  * [7-edges.py](./7-edges.py): Python script that sets three string variables based
-  on the string contained in the variable `word` as follows:
-  * `word_first_3`: Contains the first three letters of the variable `word`.
-  * `word_last_2`: Contains the last two letters of the variable `word`.
-  * `middle_word`: Contains the value of the variable `word` without the first and last letters.
-  * Completion of [this source code](https://github.com/holbertonschool/0x00.py/blob/master/7-edges.py).
-
-* **8. Create a new sentence**
-  * [8-concat_edges.py](./8-concat_edges.py): Python script that prints `object-oriented
-  programming with Python`, followed by a new line without creating new variables or
-  string literals.
-  * Completion of [this source code](https://github.com/holbertonschool/0x00.py/blob/master/8-concat_edges.py).
-
-* **9. Easter Egg**
-  * [9-easter_egg.py](./9-easter_egg.py): Python script that prints "The Zen of Python" by
-  Tim Peters, followed by a new line.
-
-* **10. Linked list cycle**
-  * [10-check_cycle.c](./10-check_cycle.c): C function that checks if a linked list
-  contains a cycle.
-  * Returns `0` if there is no cycle and `1` if there is.
-  * Helper files:
-    * [linked_lists.c](./linked_lists.c): C functions handling linked lists for testing
-    [10-check_cycle.c](./10-check_cycle.c) (provided by Holberton School).
-    * [lists.h](./lists.h): Header file containing definitions and prototypes for
-    all types and functions used in [linked_lists.c](./linked_lists.c) and
-    [10-check_cycle.c](./10-check_cycle.c).
-
-* **11. Hello, write**
-  * [100-write.py](./100-write.py): Python script that prints exactly `and that piece of
-  art is useful - Dora Korpar, 2015-10-19`, followed by a new line to `stderr` using
-  the function `write` from the `sys` module.
-  * Exits with a status code of `1`.
-
-* **12. Compile**
-  * [101-compile](./101-compile): Python script that compiles a Python script file stored
-  in the environment variable `$PYFILE` and saves it to an output file
-  `$PYFILEc` (ex. `export PYFILE=my_main.py` => output filename: `my_main.pyc`).
-
-* **13. ByteCode -> Python #1**
-  * [102-magic_calculation.py](./103-magic_calculation.py): Python function matching exactly
-  a bytecode provided by Holberton School.
+<p align="center">
+  <img src="http://www.holbertonschool.com/holberton-logo.png"
+       alt="Holberton School logo"
+  >
+</p>
 
