@@ -1,3 +1,0 @@
- * executer - execute the command using execve function
-n file name will be saved in the environment variable $PYFILE
-
