@@ -15,4 +15,4 @@ python3 "$TMP_FILE"
 
 # Clean up temporary file
 rm "$TMP_FILE"
-
+export PYCODE='print("Hello, Python!")'
