@@ -1,2 +1,2 @@
 #!/bin/bash
-export PYCODE='print("Hello, Python!")'
+python3 -c "$PYCODE"
