@@ -6,7 +6,7 @@ request(process.argv[2], function (err, _res, body) {
   if (err) {
     console.log(err);
   } else {
-    const completedTasksByUsers = {}
+    const completedTasksByUsers = {};
     body = JSON.parse(body);
 
     for (let i = 0; i < body.length; ++i) {
