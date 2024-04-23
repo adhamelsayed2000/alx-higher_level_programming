@@ -2,8 +2,8 @@
 const fs = require('fs')
 const file = process.argv[2]
 
-function readPrint(file) {
-  fs.readFile(file, 'utf-8', function(err, data) {
+function readPrint (file) {
+  fs.readFile(file, 'utf-8', function (err, data) {
     if (err) {
       console.log(err)
     } else {
