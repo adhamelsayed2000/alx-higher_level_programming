@@ -9,6 +9,6 @@ function readPrint (file) {
     } else {
       console.log(data)
     }
-  })
+  });
 }
 readPrint(file)
